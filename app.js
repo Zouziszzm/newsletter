@@ -32,10 +32,10 @@ var data = {
     ]
   };
   const jsonData = JSON.stringify(data);
-  const url = "https://us21.api.mailchimp.com/3.0/lists/caaed5bf42a";
+  const url = "https://us --ur server no from 1 to 22 -- .api.mailchimp.com/3.0/lists/--your list id ---";
   const options = {
     method: "POST",
-    auth: "Mr.M:05786fdf05c1c790967bf3356d2eeec9-us21",
+    auth: "Mr.M:--your api key--",
   };
 
   const request = https.request(url, options, function (response) {
